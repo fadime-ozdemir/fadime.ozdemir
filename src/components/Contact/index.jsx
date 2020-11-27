@@ -1,44 +1,8 @@
-import React, {useState} from "react";
-import db from '../../firebase/firebaseConfig';
+import React from "react";
 import { Button, Form } from "react-bootstrap";
 import "./index.css";
 
 const Constact = () => {
-  const [formData, setFormData] = useState({email:"", message:""});
-
-  const updateInput = e => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    })
-  }
-  const handleSubmit = event => {
-    event.preventDefault();
-    sendEmail();
-    setFormData({
-      email: '',
-      message: '',
-    })
-  }
-  const sendEmail = () => {
-    console.log(formData);
-    if (formData.email && formData.message){
-      return db.collection('emails').add({
-        email: formData.email,
-        message: formData.message,
-        time: new Date(),
-      }).then(() => {
-        return alert("Your message has been submitted 👍");
-      }
-      )
-    .catch((error) => {
-      console.log(error.message);
-      return alert("There are some problems with the server. Please, send a direct message to: fadime.ozdemir11@gmail.com");
-    })
-    } else {
-      return alert("please, fill out both email and message fields to send e-mail!")
-    }
-  }
 
   return (
     <div
@@ -47,7 +11,6 @@ const Constact = () => {
     >
       <h2 className="p-4">Let's connect!</h2>
       <Form
-        onSubmit={handleSubmit}
         name="contact"
         method="POST" 
         data-netlify="true" 
@@ -57,9 +20,7 @@ const Constact = () => {
           <Form.Control
             type="email"
             placeholder="Please, enter your e-mail"
-            onChange={updateInput}
             name="email"
-            value={formData.email}
             className="shadow-none"
           />
         </Form.Group>
@@ -70,8 +31,6 @@ const Constact = () => {
             rows={3}
             placeholder="How can I help you?"
             name="message"
-            onChange={updateInput}
-            value={formData.message}
             className="shadow-none"
           />
         </Form.Group>
