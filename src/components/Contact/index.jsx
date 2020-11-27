@@ -24,6 +24,7 @@ const Constact = () => {
             placeholder="Please, enter your e-mail"
             name="email"
             className="shadow-none"
+            required
           />
         </Form.Group>
         <Form.Group controlId="exampleForm.ControlTextarea1">
@@ -34,6 +35,7 @@ const Constact = () => {
             placeholder="How can I help you?"
             name="message"
             className="shadow-none"
+            required
           />
         </Form.Group>
         <div>
