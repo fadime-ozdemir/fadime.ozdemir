@@ -15,6 +15,7 @@ const Constact = () => {
         method="POST" 
         data-netlify="true" 
         data-netlify-recaptcha="true"
+        onSubmit="submit"
       >
         <Form.Group controlId="exampleForm.ControlInput1" className="py-2">
           <Form.Label>Your Email</Form.Label>
