@@ -13,10 +13,8 @@ const Constact = () => {
       <Form
         name="contactForm"
         method="POST" 
-        data-netlify="true" 
         netlify
         data-netlify-recaptcha="true"
-        onSubmit="submit"
       >
         <input type="hidden" name="form-name" value="contactForm" />
         <Form.Group controlId="exampleForm.ControlInput1" className="py-2">
