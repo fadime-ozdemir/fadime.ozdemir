@@ -11,14 +11,14 @@ const Constact = () => {
     >
       <h2 className="p-4">Let's connect!</h2>
       <Form
-        name="contact"
+        name="contactForm"
         method="POST" 
         data-netlify="true" 
         netlify
         data-netlify-recaptcha="true"
         onSubmit="submit"
       >
-        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="form-name" value="contactForm" />
         <Form.Group controlId="exampleForm.ControlInput1" className="py-2">
           <Form.Label>Your Email</Form.Label>
           <Form.Control
