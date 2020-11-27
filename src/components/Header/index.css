@@ -1,0 +1,26 @@
+/* button works */
+a.introWork.btn-primary:not(:disabled):not(.disabled) {
+    border: 1px solid var(--secondary-color-dark);
+    background-color: transparent;
+    color: var(--secondary-color-dark);
+}
+
+
+/* button works on hover */
+a.introWork.btn-primary:hover {
+    background-color: var(--secondary-color-light);
+    border: none;
+}
+
+/* button works on click and focus */
+a.introWork.btn-primary:focus, 
+a.introWork.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: var(--secondary-color-dark);
+    border: none;
+    color: whitesmoke;
+}
+
+h1 {
+    font-weight: bold;
+    letter-spacing: 3px;
+}

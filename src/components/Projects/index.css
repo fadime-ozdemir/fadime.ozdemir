@@ -1,0 +1,15 @@
+.projectImgLink {
+    width: 2rem;
+}
+
+.cardImg {
+    height: 10rem;
+    width: auto;
+    background-size: cover;
+}
+
+@media (max-width: 1199.98px)  {
+    #projects {
+        padding-top: 5rem;
+    }
+}

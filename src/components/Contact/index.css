@@ -1,0 +1,17 @@
+.contact form {
+    width: 40%;
+}
+
+.contact form .form-control::placeholder {
+    text-align: center;
+    color: var(--secondary-color-light);
+}
+
+.form-control {
+    border-color: var(--text-color);
+}
+
+.form-control:focus {
+    border-color: var(--secondary-color-dark);
+    color: var(--text-color);
+}

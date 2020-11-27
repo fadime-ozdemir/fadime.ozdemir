@@ -1,0 +1,53 @@
+.about {
+    text-align: left;
+}
+.about h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.aboutLinks a:first-of-type {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.skills {
+    color: var(--secondary-color-dark);
+}
+
+#about .title {
+    text-align: right;
+}
+
+.aboutLinks {
+    width: 15rem;
+    margin-left: -4rem;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    #about {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .aboutLinks {
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 3rem;
+    }
+
+    .aboutLinks a {
+        text-align: center;
+        padding: 0 2rem;
+        width: 80%;
+    }
+}
+
+@media (max-width: 473px) {
+    .aboutLinks {
+        flex-wrap: wrap;
+        padding-left: 4.5rem;
+    }
+}
