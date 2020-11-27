@@ -14,6 +14,7 @@ const Constact = () => {
         name="contact"
         method="POST" 
         data-netlify="true" 
+        netlify
         data-netlify-recaptcha="true"
         onSubmit="submit"
       >
