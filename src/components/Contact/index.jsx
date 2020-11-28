@@ -11,12 +11,10 @@ const Constact = () => {
     >
       <h2 className="p-4">Let's connect!</h2>
       <Form
-        name="contactForm"
+        name="contact"
         method="POST"
-        netlify
-        netlify-honeypot="bot-field" hidden
       >
-        <input type="hidden" name="form-name" value="contactForm" />
+        <input type="hidden" name="form-name" value="contact" />
         <Form.Group controlId="exampleForm.ControlInput1" className="py-2">
           <Form.Label>Your Email</Form.Label>
           <Form.Control
