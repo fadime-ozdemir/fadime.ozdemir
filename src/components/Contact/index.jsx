@@ -12,9 +12,9 @@ const Constact = () => {
       <h2 className="p-4">Let's connect!</h2>
       <Form
         name="contactForm"
-        method="POST" 
+        method="POST"
         netlify
-        data-netlify-recaptcha="true"
+        netlify-honeypot="bot-field" hidden
       >
         <input type="hidden" name="form-name" value="contactForm" />
         <Form.Group controlId="exampleForm.ControlInput1" className="py-2">
@@ -38,9 +38,6 @@ const Constact = () => {
             required
           />
         </Form.Group>
-        <div>
-          <div data-netlify-recaptcha="true"></div>
-        </div>
         <Button variant="danger" type="submit" className="mt-2 mb-5">
           Send E-Mail
         </Button>
