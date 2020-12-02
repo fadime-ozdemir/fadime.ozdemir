@@ -9,7 +9,7 @@ const projectsList = [
     image: tinaZita,
     id:"tina",
      github:"https://github.com/fadime-ozdemir/tina-zita.v2", 
-     live:"https://my-inventory.netlify.app/",
+     live:"https://my-inventory-demo.netlify.app/",
      description: "Responsive Web app for managing Tina Zita's food inventory.",
      stack: "React, Ant Design, firebase, i18next, sentry.io"},
      {name: "No Barriers",
