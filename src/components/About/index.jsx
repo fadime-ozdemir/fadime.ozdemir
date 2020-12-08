@@ -10,7 +10,7 @@ const About = () => {
         <div className="aboutLinks d-flex align-items-end">
           <a
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1SYrZgHWTViKORDF4Nt68fRNKB7dXs4Su/view?usp=sharing"
+            href="https://drive.google.com/file/d/1HtjV8TF9FPcGmGA2_flUqb4CDrNGvDl9/view?usp=sharing"
             target="_blank"
           >
             Resume
