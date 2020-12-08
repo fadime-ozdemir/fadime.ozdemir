@@ -75,7 +75,7 @@ const About = () => {
           to code and I took part in a hackathon. In the Innovation hackathon,
           my team won the 3rd place: we helped Tina Zita to better manage their
           inventory through a mobile-friendly web-application. You can read more
-          about it in this  <a
+          about it in this<a
             rel="noreferrer"
             href="https://medium.com/@fadime.ozdemir11/innovation-hackathon-adbcb33fab18"
             target="_blank"
