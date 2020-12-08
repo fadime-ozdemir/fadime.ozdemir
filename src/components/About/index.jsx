@@ -40,7 +40,8 @@ const About = () => {
       </div>
       <div className="py-4">
         <p>
-          I am a Front-end web developer with a passion for user experience.
+          I am a Front-end web developer with expertise in React and a passion
+          for user experience.
           <br />
           I have been surrounded by videogames and stories since I was a kid, I
           enjoy to hear and live those stories and creating my own. When I was
@@ -50,16 +51,11 @@ const About = () => {
           After graduating from high school, I did different jobs because I was
           the only one in my family who could economically sustain us.
           <br />
-          Thanks to my background as a babysitter and cleaning woman, I bring
-          strong skills in communication. During my time as a factory worker, I
-          discovered to be a determined person as I learned to sew during breaks
-          and promoted to sewer later.
-          <br />
-          When I had the change I left my job and start this amazing journey.
-          Because I wanted to turn my ideas into real projects and being able to
-          build cool websites, I started to study web development as
-          self-taught. After I was selected as one of the 26 students among more
-          than 450 people in the
+          When I had the chance I left my old job and start this amazing
+          journey. Because I wanted to turn my ideas into real projects and
+          being able to build cool websites, I started to study web development
+          as self-taught. After I was selected as one of the 26 students among
+          more than 450 people in the
           <a rel="noreferrer" href="https://www.re-coded.com/" target="_blank">
             &nbsp;Re:coded&nbsp;
           </a>
@@ -75,13 +71,37 @@ const About = () => {
           Here I learned and improved my web development skills such as HTML5
           and CSS3, javascript and JS ES6, React, Redux and firebase, but also
           soft skills such as team working and time management.
-          <br />I am patience, solution-oriented, ambitious, fast learner and
+          <br />I graduated from Re:coded where in 6 months I managed to learn
+          to code and I took part in a hackathon. In the Innovation hackathon,
+          my team won the 3rd place: we helped Tina Zita to better manage their
+          inventory through a mobile-friendly web-application. You can read more
+          about it in this  <a
+            rel="noreferrer"
+            href="https://medium.com/@fadime.ozdemir11/innovation-hackathon-adbcb33fab18"
+            target="_blank"
+          >
+            &nbsp;post
+          </a>.
+          <br />
+          Soft skills: <br />
+          I have strong communication and listening skills thanks to my
+          background as a baby-sitter and cleaning woman. I always want to
+          improve myself, so I developed a determination to grow. For example,
+          during my time as a factory worker, I learned to sew during breaks and
+          was quickly promoted to sewer.
+          <br />
+          I am a patient, solution-oriented, ambitious, fast learner and
           open-minded person. I enjoy teamwork, coding, user experience and
           design.
+          <br />
+          I am excited to use my 4+ years of experience as a determined,
+          service-minded employee to create products that are valuable to
+          people.
+          <br />
         </p>
         <p>
           What I can use to <span className="skills">program</span>: HTML5,
-          CSS3, SASS, Bootstrap, MaterialUI, Javascript, React, Redux and
+          CSS3, SASS, Bootstrap, MaterialUI, Javascript, React, Redux, Jest and
           Firebase.
           <br />
           What I can use to <span className="skills">design</span>: Figma,
