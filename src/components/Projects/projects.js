@@ -18,7 +18,7 @@ const projectsList = [
       github:"https://github.com/ReCoded-Org/capstone-istanbul-no_barriers", 
       live:"https://no-barriers.netlify.app/",
       description: "No barriers helps refugees and people in need to connect with NGOs in Turkey.",
-      stack: "React, React-Bootstrap, firebase, i18next"},
+      stack: "React, React-Bootstrap, firebase, i18next, Jest"},
       {name: "My Memories",
       image: myMemo,
      id:"memm",
