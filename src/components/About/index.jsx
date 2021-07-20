@@ -10,7 +10,7 @@ const About = () => {
         <div className="aboutLinks d-flex align-items-end">
           <a
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1HtjV8TF9FPcGmGA2_flUqb4CDrNGvDl9/view?usp=sharing"
+            href="https://drive.google.com/file/d/1A-tsn83m18q2faVZe2z6k9oGRICfonNF/view?usp=sharing"
             target="_blank"
           >
             Resume
@@ -83,6 +83,7 @@ const About = () => {
             &nbsp;post
           </a>.
           <br />
+          Currently I am working as Software Developer at <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/company/stelab-technology/">Stelab</a><br />
           Soft skills: <br />
           I have strong communication and listening skills thanks to my
           background as a baby-sitter and cleaning woman. I always want to
@@ -101,7 +102,7 @@ const About = () => {
         </p>
         <p>
           What I can use to <span className="skills">program</span>: HTML5,
-          CSS3, SASS, Bootstrap, MaterialUI, Javascript, React, Redux, Jest and
+          CSS3, SASS, Bootstrap, AntDesign, Javascript, React, Redux, GraphQL, Express, Mongoose, MongoDB, Jest and
           Firebase.
           <br />
           What I can use to <span className="skills">design</span>: Figma,
